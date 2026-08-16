@@ -74,7 +74,7 @@ const HeroSection = () => {
   });
 
   return (
-    <div className="relative container max-w-screen mx-auto min-h-screen text-white">
+    <div className="relative container max-w-screen mx-auto min-h-screen text-white ">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(10,9,8,0.15)_0%,_rgba(10,9,8,0.4)_35%,_rgba(10,9,8,0.75)_100%)]" />
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(10,9,8,0.2),_transparent_100%)]" />
 
