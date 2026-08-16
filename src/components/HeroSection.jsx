@@ -74,11 +74,11 @@ const HeroSection = () => {
   });
 
   return (
-    <div className="relative container max-w-screen mx-auto h-screen flex items-center justify-center text-white">
+    <div className="relative container max-w-screen mx-auto min-h-screen text-white">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_center,_rgba(10,9,8,0.15)_0%,_rgba(10,9,8,0.4)_35%,_rgba(10,9,8,0.75)_100%)]" />
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(10,9,8,0.2),_transparent_100%)]" />
 
-      <div className="fixed left-8 top-8 z-20 inline-block text-left">
+      <div className="sticky left-8 top-8 z-20 inline-block w-fit py-8 pl-8 text-left">
         <div className="text-4xl font-medium tracking-tight text-[#f7f1ea]">
           {formattedTime}
         </div>
@@ -92,18 +92,20 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center">
-        <img
-          src={`${AakshwaniLogo}`}
-          className="w-16 sm:w-20 md:w-24 lg:w-28 xl:w-32 h-auto object-contain"
-        />
-        <p className="marathi-title text-[2.2rem] leading-none text-[#f9efe8] md:text-[4.8rem]">
-          {" "}
-          आकाशवाणी
-        </p>
-        <p className="marathi-title text-[1.2rem] leading-none text-[#f9efe8] md:text-[2.2rem]">
-          आकाशवाणी,मराठी केंद्र.
-        </p>
+      <div className="flex min-h-screen items-center justify-center">
+        <div className="flex flex-col items-center justify-center">
+          <img
+            src={`${AakshwaniLogo}`}
+            className="h-auto w-16 object-contain sm:w-20 md:w-24 lg:w-28 xl:w-32"
+          />
+          <p className="marathi-title text-[2.2rem] leading-none text-[#f9efe8] md:text-[4.8rem]">
+            {" "}
+            आकाशवाणी
+          </p>
+          <p className="marathi-title text-[1.2rem] leading-none text-[#f9efe8] md:text-[2.2rem]">
+            आकाशवाणी,मराठी केंद्र.
+          </p>
+        </div>
       </div>
     </div>
   );
