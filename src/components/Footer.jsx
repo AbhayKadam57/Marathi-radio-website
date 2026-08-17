@@ -9,7 +9,7 @@ const Footer = () => {
             आकाशवाणी
           </p>
           <p className="marathi-title text-[0.9rem] leading-relaxed text-[#f5d6bc]/80 md:text-[1rem]">
-            आकाशवाणी, मुंबई केंद्र.
+            मुंबई केंद्र.
           </p>
         </div>
 

@@ -103,7 +103,7 @@ const HeroSection = () => {
             आकाशवाणी
           </p>
           <p className="marathi-title text-[1.2rem] leading-none text-[#f9efe8] md:text-[2.2rem]">
-            आकाशवाणी,मराठी केंद्र.
+            मराठी केंद्र.
           </p>
         </div>
       </div>
